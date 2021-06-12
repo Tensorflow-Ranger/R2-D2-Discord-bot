@@ -1,0 +1,24 @@
+{
+  "name": "r2-d2-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tensorflow-Ranger/R2-D2-Discord-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tensorflow-Ranger/R2-D2-Discord-bot/issues"
+  },
+  "homepage": "https://github.com/Tensorflow-Ranger/R2-D2-Discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "fs": "0.0.1-security",
+    "plotly": "^1.0.6"
+  }
+}
