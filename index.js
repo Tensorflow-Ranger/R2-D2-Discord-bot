@@ -1,4 +1,5 @@
 const Discord = require("discord.js");
+require('dotenv').config()
 client = new Discord.Client({partials: ["MESSAGE", "CHANNEL", "REACTION"]});
 const plotly = require('plotly')("allenturing2027", "BMJmLcCh27NKMEWG1vbu")
 const fs = require('fs');
@@ -89,6 +90,6 @@ client.on("messageReactionAdd", async (reaction, user) =>{
 }
 })
 
-client.login('ODQ5Mjc2ODQyMDU3MDA3MTE1.YLY0sQ.2EBYjXezrQr_E6p0Iwu8wXTaVRc');
+client.login(process.env.TOKEN);
 
 
